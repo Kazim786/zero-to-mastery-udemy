@@ -8,23 +8,23 @@
 </head>
 <body>
     <form>
-        First Name: <input type="text"> <br>
-        Last Name: <input type="text"> <br>
-        Email: <input type= 'email' required><br>
-        Password: <input type= "password" minlength="5"><br>
-        Birthday: <input type="date"><br>
+        First Name: <input type="text" name="firstname"> <br>
+        Last Name: <input type="text" name="lastname"> <br>
+        Email: <input type= 'email' required name="email"><br>
+        Password: <input type= "password" minlength="5" name="password"><br>
+        Birthday: <input type="date" name="birthday"><br>
         Gender: <br>
         <input type="radio" name="Gender">Male<br>
         <input type="radio" name="Gender">Female<br>
         <input type="radio" name="Gender">Other<br>
         Pets: <br>
-        <input type="checkbox">Cats <br>
-        <input type="checkbox">Dogs <br>
-        <input type="checkbox">Parrots <br>
+        <input type="checkbox" name="cat">Cats <br>
+        <input type="checkbox" name="dog">Dogs <br>
+        <input type="checkbox" name="parrots">Parrots <br>
         Cars: <br>
         <select>
-            <option value="volvo">Volvo</option>
-            <option value="Audi">Audi</option>
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="Audi" name="audi">Audi</option>
         </select><br>
         <!--Multiple attribute inside of select tag allows you to select more than one selection in drop down form-->
         <input type="submit" value="Register!">
